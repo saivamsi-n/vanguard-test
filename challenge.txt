@@ -1,0 +1,37 @@
+bjective:  
+Build a small React component that demonstrates the candidate's ability to work with forms, manage component state, and handle conditional rendering.
+ 
+Scenario:
+You are creating a simple "Profile Card" component that allows users to view and edit their profile information. The user should be able to toggle between "view" and "edit" modes, update their profile details, and save the changes.
+ 
+Requirements:
+ 
+1. Profile Card:
+   - Display a card with the user's name, email, and bio.
+   - Provide a button to toggle between "view" mode and "edit" mode.
+ 
+2. Edit Mode:
+   - In "edit" mode, replace the text fields with input fields pre-filled with the current profile data.
+   - Provide "Save" and "Cancel" buttons.
+   - If the user clicks "Save," update the profile information with the new data.
+   - If the user clicks "Cancel," revert any changes and return to "view" mode.
+ 
+3. View Mode:
+   - In "view" mode, display the profile information as plain text.
+ 
+4. State Management:
+   - Use React's `useState` hook to manage the profile data and the mode (view/edit).
+ 
+Bonus:
+   - Display a confirmation dialog before saving the changes.
+   - Add basic form validation (e.g., email format check).
+ 
+Expected Deliverables:
+ 
+- A single React component that includes the required functionality.
+- Minimal styling to differentiate between view and edit modes.
+- Clean and modular code.
+has context menu
+
+
+has context menu
